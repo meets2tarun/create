@@ -36,8 +36,7 @@ function update_progress(progress) {
     if (progress.download) {
       download_button.textContent = "CLICK TO DOWNLOAD";
       download_link.href = build_server + progress.download;
-      download_button.textContent = "HOW TO BURN";
-      window.location = "http://sucode.me/test.html";
+      <a href="sucode.me/test">How to make bootable</a>
     } else {
       download_button.textContent = "ERROR: iso creation failed";
     }
